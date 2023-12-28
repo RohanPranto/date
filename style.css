@@ -1,0 +1,29 @@
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: #007bff;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+.buttons{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
