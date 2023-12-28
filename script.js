@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var line = document.querySelector('.ques');
     var image = document.querySelector('img');
     var musicButton = document.getElementById('musicButton');
-    var audio = new Audio('chipi.mp3');
+    var audio = new Audio('Chipi.mp3');
   
     // Check if the buttons and image exist before adding event listeners
     if (noButton && yesButton && image && musicButton) {
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
         // Create a new button "Fix a date"
         var fixDateButton = document.createElement('button');
-        fixDateButton.className = 'btn btn-primary';
+        fixDateButton.className = 'btn btn-primary btn-fix';
         fixDateButton.textContent = 'Fix a date';
   
         fixDateButton.addEventListener('click', function () {

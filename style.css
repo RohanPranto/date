@@ -25,5 +25,13 @@ img {
     margin-top: 60px;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 20px;
+}
+.btn-dark{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.btn-fix{
+    margin-top: 10px;
 }
