@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     var image = document.querySelector('img');
     var musicButton = document.getElementById('musicButton');
     var audio = new Audio('Chipi.mp3');
-  
+    audio.play();
+    
     // Check if the buttons and image exist before adding event listeners
     if (noButton && yesButton && image && musicButton) {
       // Add a hover event listener to the "No" button
@@ -47,7 +48,8 @@ document.addEventListener("DOMContentLoaded", function () {
   
         // Change the image source
         image.src = 'https://media1.tenor.com/images/d17fac960ce33e3877b00f0e4f5441e2/tenor.gif?itemid=17400523';
-  
+        audio.src = 'Garden.mp3';
+        audio.play();
         // Remove the "No" button
         noButton.remove();
       });
