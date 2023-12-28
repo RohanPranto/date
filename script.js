@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var line = document.querySelector('.ques');
     var image = document.querySelector('img');
     var musicButton = document.getElementById('musicButton');
-    var audio = new Audio('chipi.mp3');
+    var audio = new Audio('Chipi.mp3');
   
     // Check if the buttons and image exist before adding event listeners
     if (noButton && yesButton && image && musicButton) {
